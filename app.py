@@ -118,7 +118,7 @@ st.sidebar.title('Navigation')
 page = st.sidebar.radio('Select a Page', ['Dashboard', 'Invoice Risk Predictor', 'Freight Cost Predictor', 'Batch Upload (Invoice)'])
 
 if page == 'Dashboard':
-    st.title('Invoice Intelligent System Dashboard')
+    st.title('Invotelligent - Dashboard')
     st.markdown("Welcome to the Invoice Intelligent System. Use the sidebar to navigate to the predictor modules.")
     
     col1, col2 = st.columns(2)
