@@ -1,0 +1,11 @@
+- [x] Update model path resolution in `inference/predict_freight.py` to point to `freight_cost_prediction/models/predict_freight_model.pkl` using absolute base dir
+- [x] Run root execution test: `python inference/predict_freight.py`
+- [x] Run inference directory execution test: `cd inference && python predict_freight.py`
+- [x] Run failure-path test with intentionally wrong model path
+- [x] Run input-schema negative tests (missing/invalid `Dollars`)
+- [x] Summarize all thorough testing results
+
+- [x] Diagnose Streamlit pickle loading error in `app.py`
+- [x] Validate `models/` vs `invoice_flagging/models/` artifacts
+- [x] Fix `app.py` model/scaler loading with robust absolute paths and startup-safe error handling
+- [x] Run app start verification
